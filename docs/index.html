@@ -1,1 +1,39 @@
-<h1> Hello word </h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Binary Bead Bracelet Encoder</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="stylesheet" href="style.css" />
+<script defer src="script.js"></script>
+</head>
+<body>
+<div class="app">
+  <header>
+    <h1>Binary Bead Bracelet</h1>
+    <p class="subtitle">Convert any word or phrase into a bead sequence (▭ for 0, ■ for 1)</p>
+  </header>
+
+  <main>
+    <form id="encoderForm" autocomplete="off">
+      <div class="field">
+        <label for="phrase">Your word or phrase</label>
+        <input type="text" id="phrase" name="phrase" placeholder="Type here (e.g. HELLO WORLD)" required />
+        <small class="hint">Spaces are preserved and shown as [space]</small>
+      </div>
+
+      <div class="actions">
+        <button type="submit" id="computeBtn" class="btn compute">Compute!</button>
+        <button type="button" id="resetBtn" class="btn reset hidden">Reset</button>
+      </div>
+    </form>
+
+    <section id="resultsContainer" aria-live="polite"></section>
+  </main>
+
+  <footer>
+    <p>Made for bead pattern visualization. Theme adapts to your system preference.</p>
+  </footer>
+</div>
+</body>
+</html>
