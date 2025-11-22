@@ -13,6 +13,8 @@
 
 **A simple Python tool to convert any word or phrase into binary code and visualize the sequence for building a personalized bead bracelet.**
 
+## [👉 Try to use the website of the project! 👈](https://r0mb0.github.io/Bead_binary_bracelet/)
+
 ---
 
 ## 📚 Table of Contents
