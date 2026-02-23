@@ -179,3 +179,11 @@ The output shows how many beads of each type you need, and the exact sequence to
   - How many beads of each type (for "0" and "1") you need
   - The exact bead sequence to use (in the improved version)
 - Use two different colors for "0" and "1" beads to craft your bracelet!
+
+<a href="https://github.com/R0mb0/Not_made_by_AI">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/R0mb0/Not_made_by_AI/blob/main/Badge/SVG/NotMadeByAIDark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/R0mb0/Not_made_by_AI/blob/main/Badge/SVG/NotMadeByAILight.svg">
+    <img alt="Not made by AI" src="https://github.com/R0mb0/Not_made_by_AI/blob/main/Badge/SVG/NotMadeByAIDefault.svg">
+  </picture>
+</a>
